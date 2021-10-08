@@ -1,0 +1,590 @@
+@media screen and (min-width: 480px) {
+  html {
+    scroll-behavior: smooth;
+  }
+  .anh1 {
+    width: 100%;
+  }
+  .khungg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .tennhahang {
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  .noidung1 {
+    width: 440px;
+  }
+  .vechungtoi,
+  .menu,
+  .datban,
+  .lienhe,
+  .lienhe5 {
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  .thanhmenu {
+    position: absolute;
+    z-index: 100000;
+    background-color: white;
+    position: fixed;
+    height: 70px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .khung {
+    width: 600px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+  #anh {
+    height: 740px;
+    width: 100%;
+  }
+  .anh1 {
+    width: 500px;
+    height: 400px;
+  }
+  .khung2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 1400px;
+    justify-content: space-around;
+  }
+  .khung3 {
+    width: 500px;
+    margin-bottom: 50px;
+  }
+  #tieude1,
+  .tieude2 {
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    text-align: center;
+  }
+  .noidung1 {
+    font-size: 20px;
+    font-family: "Times New Roman", Georgia, Serif;
+  }
+  .dongke {
+    width: 1300px;
+  }
+  .khung4 {
+    display: flex;
+    justify-content: center;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .khung5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .anh2 {
+    border-style: solid;
+    width: 300px;
+    height: 400px;
+  }
+  .tenmonan,
+  .tenmonan1,
+  .tenmonan2,
+  .tenmonan3,
+  .tenmonan4,
+  .tenmonan5,
+  .tenmonan6,
+  .tenmonan7,
+  .tenmonan8,
+  .tenmonan9 {
+    font-size: 20px;
+    font-family: "Times New Roman", Georgia, Serif;
+    width: 200px;
+    height: 70px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+  }
+  .khung7 {
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .khung6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tuychinh {
+    position: absolute;
+    margin-left: 440px;
+    transform: translateY(-2300px);
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+  }
+  .tuychinh1 {
+    position: absolute;
+    margin-left: 950px;
+    transform: translateY(-2300px);
+
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+  }
+  .khungg {
+    display: flex;
+    flex-direction: row;
+  }
+  .tieude3 {
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+  }
+  .khung12 {
+    width: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .input1,
+  .input2,
+  .input3 {
+    width: 250px;
+    height: 40px;
+    border-color: green;
+    background-color: white;
+  }
+  .ten {
+    font-size: 20px;
+  }
+  .khung121 {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+  }
+  .khunggg {
+    margin-top: 100px;
+    margin-left: 250px;
+  }
+  .nutdangky {
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: greenyellow;
+    border: none;
+  }
+  .anhh {
+    margin-top: 50px;
+    margin-left: 800px;
+    position: absolute;
+    width: 600px;
+    height: 500px;
+  }
+  .lienhe1 {
+    transform: translateY(-px);
+    background-color: greenyellow;
+
+    padding-left: 100px;
+  }
+  .khungend {
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .khungend1 {
+    width: 289px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mondadat {
+    position: fixed;
+    animation: chay 1s;
+    background-color: greenyellow;
+    top: 70px;
+    width: 100%;
+    display: flex;
+    z-index: 1000000000000000;
+    justify-content: center;
+    font-family: "Times New Roman", Georgia, Serif;
+    flex-direction: column;
+  }
+  .x {
+    position: absolute;
+    margin-left: 400px;
+    font-size: 30px;
+  }
+  @keyframes chay {
+    0% {
+      margin-top: 50px;
+    }
+  }
+
+  .khungdatmon {
+    width: 1150px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .tdd {
+    margin-left: 180px;
+    font-family: "Times New Roman", Georgia, Serif;
+  }
+  .daylakhung {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+  }
+  .giam {
+    height: 40px;
+  }
+  .khungmonan {
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sp {
+    font-size: 20px;
+  }
+  .soluong,
+  .soluong1,
+  .soluong2,
+  .soluong3,
+  .soluong4,
+  .soluong5,
+  .soluong6,
+  .soluong7,
+  .soluong8,
+  .soluong9 {
+    width: 100px;
+  }
+  .bo {
+    margin-left: 10px;
+  }
+  .mon11,
+  .mon12,
+  .mon13,
+  .mon14,
+  .mon15,
+  .mon16,
+  .mon17,
+  .mon18,
+  .mon19 {
+    font-family: "Times New Roman", Georgia, Serif;
+  }
+  .kv {
+    font-family: "Times New Roman", Georgia, Serif;
+  }
+  .tuychinh2 {
+    position: absolute;
+    margin-left: 440px;
+    transform: translateY(-1700px);
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+  }
+  .tuychinh3 {
+    position: absolute;
+    margin-left: 930px;
+    transform: translateY(-1700px);
+
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+  }
+  .tuychinh4 {
+    margin-left: 440px;
+    transform: translateY(-1050px);
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+  }
+  .tuychinh5 {
+    margin-left: 930px;
+    transform: translateY(-1150px);
+
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+  }
+  .chuadung {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .hopdung {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .dung,
+  .dung1,
+  .dung2 {
+    width: 400px;
+  }
+  .cach {
+    display: none;
+  }
+  .tuy {
+    display: none;
+  }
+  .tddd {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 46.1875em) {
+  .vechungtoi,
+  .menu,
+  .datban,
+  .lienhe {
+    display: none;
+  }
+  .thanhmenu {
+    font-family: "Playfair Display", serif;
+    position: absolute;
+    z-index: 100000;
+    background-color: white;
+    position: fixed;
+    height: 70px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  #anh {
+    width: 100%;
+  }
+  .anh1 {
+    display: none;
+  }
+
+  #tieude1,
+  .tieude2 {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    text-align: center;
+  }
+  #tieude1 {
+    margin-left: 90px;
+  }
+  .khung3 {
+    transform: translateY(-200px);
+  }
+  .noidung1 {
+    margin-left: 55px;
+    width: 300px;
+    font-size: 20px;
+    font-family: "Times New Roman", Georgia, Serif;
+  }
+  .khung4 {
+    display: flex;
+    transform: translateY(-250px);
+    justify-content: center;
+  }
+  .dongke {
+    width: 250px;
+  }
+  .khung5 {
+    transform: translateY(-330px);
+  }
+
+  .anh2 {
+    width: 80%;
+    height: 350px;
+  }
+
+  .cach {
+    height: 30px;
+  }
+  .tenmonan {
+  }
+  .tenmonan,
+  .tenmonan1,
+  .tenmonan2,
+  .tenmonan3,
+  .tenmonan4,
+  .tenmonan5,
+  .tenmonan6,
+  .tenmonan7,
+  .tenmonan8,
+  .tenmonan9 {
+    font-size: 20px;
+    font-family: "Times New Roman", Georgia, Serif;
+    width: 200px;
+    height: 70px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .khung7 {
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+  }
+  .tuy {
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+  }
+  .anhh {
+    display: none;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .tennhahang {
+    font-size: 18px;
+    font-family: "Playfair Display", serif;
+  }
+  .lienhe5 {
+    font-size: 18px;
+    font-family: "Playfair Display", serif;
+  }
+  .tuychinh,
+  .tuychinh1,
+  .tuychinh2,
+  .tuychinh3,
+  .tuychinh4,
+  .tuychinh5,
+  .tuychinh6,
+  .tuychinh7 {
+    display: none;
+  }
+  .mondadat {
+    position: fixed;
+    animation: chay 1s;
+    background-color: greenyellow;
+    top: 70px;
+    width: 100%;
+    display: flex;
+    z-index: 1000000000000000;
+    justify-content: center;
+    font-family: "Times New Roman", Georgia, Serif;
+    flex-direction: column;
+  }
+
+  @keyframes chay {
+    0% {
+      margin-top: 50px;
+    }
+  }
+  .kv {
+    display: none;
+  }
+  .khungdatmon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .daylakhung {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+  }
+  .khungmonan {
+    margin-left: 40px;
+    width: 310px;
+    display: flex;
+
+    justify-content: space-between;
+  }
+  .tdd {
+    font-size: 30px;
+    margin-left: 70px;
+  }
+  .mondadat {
+    width: 100%;
+  }
+  .x {
+    font-size: 20px;
+  }
+  .mon11,
+  .mon12,
+  .mon13,
+  .mon14,
+  .mon15,
+  .mon16,
+  .mon17,
+  .mon18,
+  .mon19 {
+    font-size: 20px;
+  }
+  .tddd {
+    font-size: 40px;
+    display: flex;
+    font-family: "Playfair Display", serif;
+    justify-content: center;
+  }
+  .khungdatban {
+    width: 100%;
+    transform: translateY(-250px);
+  }
+  .input3 {
+    width: 230px;
+  }
+  .khung12 {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+  .khung121 {
+    margin-left: 30px;
+  }
+  .tieude3 {
+    transform: translateY(-50px);
+  }
+  .nutdangky {
+    font-size: 25px;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: greenyellow;
+    border: none;
+  }
+  .dattban {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lienhe1 {
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: greenyellow;
+  }
+  .khungend {
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+  .khungend1 {
+    width: 289px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 568px) {
+}

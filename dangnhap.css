@@ -1,0 +1,148 @@
+@media screen and (min-width: 480px) {
+  .thanhmenu {
+    position: absolute;
+    z-index: 100000;
+    background-color: white;
+    position: fixed;
+    height: 70px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  #anh {
+    height: 740px;
+    width: 100%;
+  }
+  .tennhahang {
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    margin-right: 950px;
+  }
+  .td {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+  }
+  .khungchua {
+    margin-left: 580px;
+  }
+  .khung7 {
+    width: 385px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .ten {
+    font-size: 20px;
+  }
+  input {
+    height: 40px;
+  }
+  .input2,
+  .input1 {
+    border-color: green;
+  }
+  .nutdangky {
+    margin-left: 80px;
+    font-size: 30px;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: greenyellow;
+    border: none;
+  }
+  .anh {
+    height: 580px;
+    width: 580px;
+    transform: translateY(-150px);
+    position: absolute;
+  }
+  .anh1 {
+    height: 580px;
+    width: 590px;
+    transform: translateY(-150px);
+    margin-left: 1000px;
+    position: absolute;
+  }
+  .khunggg {
+    font-size: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Times New Roman", Georgia, Serif;
+  }
+  .dk {
+    color: green;
+  }
+  .ochua {
+    position: absolute;
+    transform: translateY(-180px);
+    color: green;
+  }
+  .cach {
+    display: none;
+  }
+}
+@media screen and (max-width: 46.1875em) {
+  .thanhmenu {
+    font-family: "Playfair Display", serif;
+    position: absolute;
+    z-index: 100000;
+    background-color: white;
+    position: fixed;
+    height: 70px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .tennhahang {
+    font-size: 20px;
+  }
+  .anh,
+  .anh1 {
+    display: none;
+  }
+  .td {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+  }
+  .khungchua {
+    transform: translateY(30px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .khunggg {
+    display: flex;
+    align-items: center;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 20px;
+  }
+  .khung7 {
+    margin-left: 50px;
+  }
+  .nutdangky {
+    transform: translateY(20px);
+    font-size: 25px;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: greenyellow;
+    border: none;
+  }
+  .ochua {
+    color: green;
+    transform: translateY(-170px);
+  }
+  .dk {
+    color: green;
+  }
+}

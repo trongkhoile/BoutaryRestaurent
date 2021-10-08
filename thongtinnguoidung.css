@@ -1,0 +1,179 @@
+@media screen and (min-width: 480px) {
+  .thanhmenu {
+    position: absolute;
+    z-index: 100000;
+    background-color: white;
+    position: fixed;
+    height: 70px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+  }
+  .khung {
+    width: 600px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+  .vechungtoi,
+  .menu,
+  .datban,
+  .lienhe {
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .tennhahang {
+    margin-left: 150px;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+  }
+  .thongtinngdung {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+  }
+  .ten {
+    color: green;
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+    margin-left: 7px;
+    transform: translateY(-5px);
+  }
+  .khungg {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+  }
+  .tenngdung {
+    font-family: "Playfair Display", serif;
+  }
+  .ten {
+    font-size: 37px;
+  }
+  .nut {
+    border: none;
+    width: 100px;
+    height: 40px;
+    background-color: greenyellow;
+    margin-left: 100px;
+  }
+  .nut1 {
+    border: none;
+    width: 100px;
+    height: 40px;
+    background-color: greenyellow;
+    margin-left: 40px;
+
+    margin-top: 20px;
+  }
+  .anhminhhoa {
+    position: absolute;
+    margin-left: 500px;
+    width: 500px;
+    top: 200px;
+  }
+  #odungmonan {
+    transform: translateY(20px);
+    margin-left: 100px;
+  }
+  .huy {
+    position: absolute;
+    margin-top: 0px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: red;
+    transform: translateX(270px);
+  }
+  .huydon {
+    position: absolute;
+    margin-top: 10px;
+    transform: translateX(380px);
+  }
+  .cach {
+    display: none;
+  }
+}
+@media screen and (max-width: 46.1875em) {
+  .anhminhhoa {
+    display: none;
+  }
+  .thanhmenu {
+    font-family: "Playfair Display", serif;
+    position: absolute;
+    z-index: 100000;
+    background-color: white;
+    position: fixed;
+    height: 70px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .tennhahang {
+    font-size: 20px;
+  }
+  .khungg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .ten {
+    color: green;
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+    margin-left: 7px;
+    transform: translateY(-5px);
+  }
+  .thongtinngdung {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: 30px;
+  }
+  .tenngdung {
+    font-family: "Playfair Display", serif;
+  }
+  .nut {
+    border: none;
+    width: 100px;
+    height: 40px;
+    background-color: greenyellow;
+  }
+  .nut1 {
+    border: none;
+    width: 100px;
+    height: 40px;
+    background-color: greenyellow;
+  }
+  .cach {
+    width: 10px;
+    height: 1px;
+  }
+  #odungmonan {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .huy {
+    border: none;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: red;
+  }
+  .hainut {
+    display: flex;
+    justify-content: center;
+  }
+}
